@@ -1,0 +1,46 @@
+body {
+    padding-top: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("../img/banner.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #297373;
+}
+
+.nav-link.active {
+    color: #FF8552 !important;
+    font-weight: bold;
+}
+
+
+a {
+    color: #E6E6E6 !important;
+}
+
+.footer {
+    background-color: #297373;
+    font-size: 26px;
+    color: #E6E6E6;
+}
+
+.footer span {
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #FF8552 !important;
+}
+
+.btn-success {
+    border: 0px;
+    background-color: #FF8552 !important;
+}
